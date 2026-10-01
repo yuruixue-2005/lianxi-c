@@ -1,37 +1,11 @@
-# Simple C Project
+# 简单C语言练习项目
+## 项目简介
+本项目为C语言基础演示程序，实现控制台文本输出，熟悉Git与GitHub版本控制流程，掌握本地代码编写、提交、远程仓库推送完整操作。
 
-这是一个简单的 C 语言示例项目，程序启动后会输出一行问候语。
-
-## 编译
-
-使用 GCC：
-
+## 环境与编译
+编译器支持 GCC / Clang
 ```bash
+# GCC编译命令
 gcc main.c -o hello
-```
-
-使用 Clang：
-
-```bash
-clang main.c -o hello
-```
-
-## 运行
-
-Linux/macOS：
-
-```bash
+# 运行程序
 ./hello
-```
-
-Windows：
-
-```powershell
-.\hello.exe
-```
-
-运行结果：
-
-```text
-Hello, world!
-```
